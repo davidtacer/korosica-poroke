@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/* CGP Hotel Korošica — žetoni iz design systema */
+@theme {
+  --color-cream: #f6f2ec;
+  --color-paper: #ffffff;
+  --color-linen: #ede6dc;
+  --color-ink: #3c3023;
+  --color-ink-muted: #6b5d50;
+  --color-taupe: #9c8573;
+  --color-taupe-deep: #7a6350;
+  --color-olive: #9a9576;
+  --color-olive-deep: #6e6b52;
+  --color-sand: #bda48c;
+  --color-espresso: #4a3a2c;
+  --color-hairline: #d9cfc3;
+  --color-on-dark-muted: #e3d9cd;
+  --color-on-olive-muted: #e9e2d2;
+  --color-taupe-light: #d3c2b1;
+
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Jost", system-ui, sans-serif;
+  --font-script: "Allura", cursive;
+
+  --radius-card: 12px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-taupe-deep);
+    outline-offset: 2px;
+  }
+  input[type="range"] {
+    accent-color: var(--color-taupe-deep);
+  }
+}
+
+@utility eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@utility section-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1.05;
+}
+
+@utility container-page {
+  max-width: 1360px;
+  margin-inline: auto;
+  padding-inline: clamp(16px, 4vw, 40px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
