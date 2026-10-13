@@ -311,7 +311,7 @@ export default function Home() {
           <h2 id="trenutki" className="section-title">
             Trenutki s porok pri nas
           </h2>
-          <a href={hotel.instagram} rel="noopener" className="eyebrow text-taupe-deep">
+          <a href={hotel.instagram} target="_blank" rel="noopener noreferrer" className="eyebrow text-taupe-deep">
             @korosica na Instagramu
           </a>
         </div>

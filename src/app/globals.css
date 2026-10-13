@@ -32,6 +32,8 @@
   }
   body {
     @apply bg-cream text-ink font-sans antialiased;
+    /* Cormorant ima privzeto "starinske" številke (11 izgleda kot II); vklopimo ravne. */
+    font-variant-numeric: lining-nums;
   }
   :focus-visible {
     outline: 2px solid var(--color-taupe-deep);

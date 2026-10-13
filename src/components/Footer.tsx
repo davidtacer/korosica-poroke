@@ -24,14 +24,14 @@ export default function Footer() {
             {hotel.phone}
           </a>
           <br />
-          <a href={hotel.instagram} className="text-ink" rel="noopener">
+          <a href={hotel.instagram} className="text-ink" target="_blank" rel="noopener noreferrer">
             @korosica
           </a>
         </div>
         <div>
           Hotel, restavracija in wellness:
           <br />
-          <a href={hotel.hotelSite} className="text-ink">
+          <a href={hotel.hotelSite} target="_blank" rel="noopener noreferrer" className="text-ink">
             korosica.si
           </a>
         </div>
