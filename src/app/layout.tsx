@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "sl_SI",
     siteName: "Poroke Korošica",
+    url: "/",
   },
 };
 

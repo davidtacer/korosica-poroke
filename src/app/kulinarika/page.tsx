@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "Poročni meniji in cene",
   description: `Poročni meniji Hotela Korošica: catering style od ${prices.catering} €, meniji z dvema obrokoma od ${prices.menu} €, all inclusive ${prices.allInclusive} € na osebo, sladki kotiček ${prices.sweetCorner} €.`,
   alternates: { canonical: "/kulinarika" },
+  openGraph: { url: "/kulinarika" },
 };
 
 function Bullets({ items }: { items: readonly string[] }) {

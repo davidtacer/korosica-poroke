@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Povpraševanje za poroko",
   description: "Preverita prost datum za poroko v Hotelu Korošica in prejmita ponudbo z meniji, cenami in predlogom poteka dneva.",
   alternates: { canonical: "/povprasevanje" },
+  openGraph: { url: "/povprasevanje" },
 };
 
 const foodIds = ["catering", "meni", "ai", "ai2"];
