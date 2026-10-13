@@ -46,11 +46,11 @@ export const packages: { id: PackageId; name: string; desc: string; price: numbe
 ];
 
 export const faq: { q: string; a: string }[] = [
-  { q: "Koliko gostov lahko povabiva?", a: `V dvorani s teraso je prostora za ${facts.capacityMin} do ${facts.capacityMax} gostov, vedno z dovolj velikim plesiščem.` },
+  { q: "Koliko gostov lahko povabiva?", a: `V restavraciji s teraso je prostora za ${facts.capacityMin} do ${facts.capacityMax} gostov, vedno z dovolj velikim plesiščem.` },
   { q: "Ali lahko imava obred kar pri vas?", a: `Da. Civilni ali cerkveni obred pripravimo na prostem v parku ali paviljonu. Usklajevanje z uradnimi osebami prevzamemo mi. Priprava prostora stane ${prices.ceremonySetup} €.` },
   { q: "Kaj, če bo deževalo?", a: "Obred in sprejem prestavimo na pokrito teraso, ob močnem soncu pa pomagajo senčniki." },
   { q: "Do katere ure lahko traja zabava?", a: "Glasba in ples nista časovno omejena. Ko se zabava konča, so sobe v isti hiši." },
-  { q: "Ali se najem dvorane plača posebej?", a: "Ne. Slavje poteka v naši dvorani in je vključeno v ceno kulinarike." },
+  { q: "Ali se najem restavracije plača posebej?", a: "Ne. Slavje poteka v naši restavraciji in je vključeno v ceno kulinarike." },
   { q: "Koliko stane hrana in kaj je z otroki?", a: `Catering style je od ${prices.catering} € na osebo, meniji z dvema obrokoma od ${prices.menu} €, all inclusive z menijem in pijačo ${prices.allInclusive} € oziroma ${prices.allInclusiveCocktails} € z dvema koktajloma. Otroci od 3 do 12 let plačajo polovico, mlajši od 3 let nič.` },
   { q: "Kje bodo spali gostje?", a: `V hotelu je ${facts.rooms} sob in ${facts.beds} ležišč. Poročni gostje z neposredno rezervacijo dobijo ugodne cene, pozen zajtrk in kasnejšo odjavo, mladoporočenca pa sobo brezplačno.` },
   { q: "Ali lahko pripeljeva svojega dekoraterja ali cvetličarja?", a: "Seveda, z veseljem sodelujemo z vašimi načrtovalci in ponudniki. Če jih še nimata, vama priporočimo preverjene." },

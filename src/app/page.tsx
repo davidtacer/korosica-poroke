@@ -23,7 +23,7 @@ import iskrice from "@/assets/images/iskrice.jpg";
 import glasba from "@/assets/images/glasba.jpg";
 
 const factStrip = [
-  { big: `do ${facts.capacityMax}`, small: "Gostov v dvorani s teraso" },
+  { big: `do ${facts.capacityMax}`, small: "Gostov v restavraciji s teraso" },
   { big: `${facts.rooms} sob`, small: `${facts.beds} ležišč za goste` },
   { big: "v parku", small: "Civilni ali cerkveni obred" },
   { big: `od ${prices.catering} €`, small: "Na osebo za kulinariko" },
@@ -40,7 +40,7 @@ const ceremonyPoints = [
 const day = [
   { n: "I", t: "Obred v parku", d: "Paviljon s cvetjem, razgled na hribe." },
   { n: "II", t: "Šampanjec in sprejem", d: "Finger food ali showcooking na žaru zunaj." },
-  { n: "III", t: "Večerja v dvorani", d: "Postrežen meni in hladno-topli bife." },
+  { n: "III", t: "Večerja v restavraciji", d: "Postrežen meni in hladno-topli bife." },
   { n: "IV", t: "Torta in sladki kotiček", d: "Vse sladice ročno, v naši kuhinji." },
   { n: "V", t: "Ples do jutra", d: "Veliko plesišče, glasba brez časovne omejitve." },
   { n: "VI", t: "Pozen zajtrk", d: "Gostje prespijo, odjava kasneje." },
@@ -56,14 +56,14 @@ const spaces: { img: StaticImageData; alt: string; tag: string; title: string; t
   },
   {
     img: dvorana,
-    alt: "Pogrnjena dvorana z okroglimi mizami in steklenimi stenami proti parku",
+    alt: "Pogrnjena restavracija z okroglimi mizami in steklenimi stenami proti parku",
     tag: `Slavje · ${facts.capacityMin}–${facts.capacityMax} gostov`,
-    title: "Dvorana s teraso",
-    text: "Svetla dvorana s steklenimi stenami proti parku in vedno dovolj velikim plesiščem. Najem je vključen v kulinariko.",
+    title: "Restavracija s teraso",
+    text: "Svetla restavracija s steklenimi stenami proti parku in vedno dovolj velikim plesiščem. Najem je vključen v kulinariko.",
   },
   {
     img: terasa,
-    alt: "Pokrita terasa pred stekleno dvorano, odprta proti parku",
+    alt: "Pokrita terasa pred stekleno restavracijo, odprta proti parku",
     tag: "Rezerva ob dežju",
     title: "Pokrita terasa",
     text: "Če vreme ne sodeluje, obred in sprejem varno prestavimo pod streho, s senčniki ob močnem soncu.",
@@ -206,7 +206,7 @@ export default function Home() {
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div className="flex max-w-[640px] flex-col gap-3.5">
             <span className="eyebrow text-taupe-deep">Prostori</span>
-            <h2 className="section-title">Park, dvorana in terasa, nekaj korakov narazen.</h2>
+            <h2 className="section-title">Park, restavracija in terasa, nekaj korakov narazen.</h2>
           </div>
           <p className="max-w-[420px] text-base leading-relaxed text-ink-muted">
             Pred hotelom je veliko parkirišče za vse goste. Klasično ali okroglo omizje pripravimo mi.

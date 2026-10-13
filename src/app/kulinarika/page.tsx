@@ -132,7 +132,7 @@ export default function Kulinarika() {
             <div className="flex flex-wrap gap-10">
               <div className="flex flex-col gap-1">
                 <span className="font-display text-[56px] leading-none">{prices.allInclusive} €</span>
-                <span className="text-[13px] text-on-dark-muted">klasični, od prihoda v dvorano</span>
+                <span className="text-[13px] text-on-dark-muted">klasični, od prihoda v restavracijo</span>
               </div>
               <div className="flex flex-col gap-1">
                 <span className="font-display text-[56px] leading-none">{prices.allInclusiveCocktails} €</span>

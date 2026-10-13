@@ -125,7 +125,7 @@ export default function Kalkulator() {
           ))}
         </ul>
         <p className="text-[13px] leading-normal text-on-olive-muted">
-          Najem dvorane je vključen. Za mladoporočenca je soba brezplačna. Cene so »od«, končna ponudba je odvisna od izbranega menija.
+          Najem restavracije je vključen. Za mladoporočenca je soba brezplačna. Cene so »od«, končna ponudba je odvisna od izbranega menija.
         </p>
         <Link href={inquiryHref} className={btnLight}>
           POŠLJITA TA IZRAČUN

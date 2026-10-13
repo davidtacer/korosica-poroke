@@ -49,8 +49,8 @@ export function homeJsonLd() {
       },
       {
         "@type": "EventVenue",
-        "@id": `${siteUrl}/#dvorana`,
-        name: "Dvorana s teraso, Hotel Korošica",
+        "@id": `${siteUrl}/#restavracija`,
+        name: "Restavracija s teraso, Hotel Korošica",
         maximumAttendeeCapacity: facts.capacityMax,
         containedInPlace: { "@id": `${siteUrl}/#hotel` },
       },
@@ -63,7 +63,7 @@ export function homeJsonLd() {
       },
       offer("Catering style", prices.catering, "Finger food in showcooking, cena od."),
       offer("Meni, dva obroka", prices.menu, "Postrežen meni in hladno-topli bife, cena od."),
-      offer("All inclusive", prices.allInclusive, "Klasični meni in pijača od prihoda v dvorano."),
+      offer("All inclusive", prices.allInclusive, "Klasični meni in pijača od prihoda v restavracijo."),
       offer("All inclusive z dvema koktajloma", prices.allInclusiveCocktails, "Klasični meni, pijača in dva koktajla."),
       {
         "@type": "FAQPage",

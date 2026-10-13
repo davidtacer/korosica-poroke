@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | Poroke Korošica",
   },
   description:
-    "Poročna lokacija na Koroškem: civilni ali cerkveni obred v parku, dvorana za 180–200 gostov, 28 sob za goste in glasba brez časovne omejitve. Hotel Korošica, Šentjanž pri Dravogradu.",
+    "Poročna lokacija na Koroškem: civilni ali cerkveni obred v parku, restavracija za 180–200 gostov, 28 sob za goste in glasba brez časovne omejitve. Hotel Korošica, Šentjanž pri Dravogradu.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
